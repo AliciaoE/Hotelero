@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ESP">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ccs/Estilo2.css">
+
+</head>
+</head>
+<body>
+    <header>
+
+        <h1>Inventario Hoteles</h1>
+    </header>
+
+    <div id="botones-container">
+        <button onclick="consultar()">Consultar hotel</button>
+        <button onclick="crearHotels()">Crear hotel</button>
+        <button onclick="eliminarHotel()">Eliminar hotel</button>
+        <button onclick="modificarHotel()">Modificar hotel</button>
+        <button onclick="inventarioTotal()"> Inventario</button>
+        <button onclick="resetear()"> Reset</button>
+    </div>
+    
+
+    <div id="resultado-container">
+        <p id="resultado" class="empty">No se ha realizado ninguna consulta.</p>
+    </div>
+
+    <footer>
+        <p>© 2023 Hotel Program | Todos los derechos reservados. <a href="#">Política de privacidad</a></p>
+    </footer>
+
+    <script src="js/classe hotel.js"></script>
+    <script src="js/hoteles.js"></script>
+    <script src="js/funciones hotel.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

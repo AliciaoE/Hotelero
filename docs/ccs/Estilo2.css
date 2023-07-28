@@ -1,0 +1,103 @@
+/* Estilo general del cuerpo del documento */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Estilo del encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+/* Estilo de los botones */
+#botones-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Estilo del contenedor de resultados */
+#resultado-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilo del párrafo de resultados */
+#resultado {
+  font-size: 16px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+/* Estilo para el párrafo de resultado cuando no hay información de hotel */
+#resultado.empty {
+  color: #777;
+  font-style: italic;
+}
+
+/* Estilo del pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Estilo para el enlace en el pie de página */
+footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ccc;
+}
